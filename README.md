@@ -7,3 +7,5 @@
 Minha alteração:
 
 Coloquei uma estrutura when que retorna uma cor de acordo com a opção digitada pelo usuário.
+
+[Apresentsção](https://youtu.be/6NXac5x1N7s)
