@@ -31,12 +31,12 @@ class AddBusinessCardActivity : AppCompatActivity() {
                 empresa = binding.tilEmpresa.editText?.text.toString(),
                 telefone = binding.tilTelefone.editText?.text.toString(),
                 email = binding.tilEmail.editText?.text.toString(),
-                fundoPersonalizado = when(binding.tilCor.editText?.text.toString()){
-                                        "Azul" -> "#87CEFA"
-                                        "amarelo" -> "#FFFF00"
-                                        "verde" -> "#90EE90"
-                                        "vermelho"-> "#FA8072"
-                                        else -> "FFFFFF"
+                fundoPersonalizado = when(binding.tilCor.editText?.text.toString().uppercase()){
+                                        "AZUL" -> "#87CEFA"
+                                        "AMARELO" -> "#FFFF00"
+                                        "VERDE" -> "#90EE90"
+                                        "VERMELHO"-> "#FA8072"
+                                        else -> "#FFFFFF"
                                     }
 
             )
